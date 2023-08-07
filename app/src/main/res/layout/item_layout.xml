@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:background="@color/grey0">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@color/grey0">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15sp"
+            app:cardCornerRadius="10dp"
+            app:cardMaxElevation="7dp"
+            android:background="@color/background">
+            <LinearLayout
+                android:id="@+id/detailLayout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/view5"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="15sp"
+                    android:elevation="12dp"
+                    android:innerRadius="0dp"
+                    android:shape="ring"
+                    android:thicknessRatio="1.9"
+                    app:cardCornerRadius="80dp">
+
+                    <ImageView
+                        android:id="@+id/itemImageView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:contentDescription="@string/todo"
+                        android:scaleType="centerCrop"
+                        app:srcCompat="@drawable/pizza"
+                        tools:ignore="ImageContrastCheck" />
+                </androidx.cardview.widget.CardView>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:orientation="vertical"
+                    android:paddingHorizontal="15sp">
+
+                    <TextView
+                        android:id="@+id/itemName"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/name"                            android:layout_marginTop="10sp"
+                        android:textColor="@color/contrast"
+                        android:textSize="22sp"
+                        android:layout_marginVertical="10sp"/>
+
+                    <TextView
+                        android:id="@+id/itemRestaurant"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/restaurant"
+                        android:textColor="@color/grey9"
+                        android:textSize="20sp"
+                        android:layout_marginVertical="3sp"/>
+
+                    <RatingBar
+                        android:id="@+id/itemRatingBar"
+                        style="@android:style/Widget.DeviceDefault.Light.RatingBar.Small"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:contentDescription="@string/rating"
+                        android:isIndicator="true"
+                        android:max="5"
+                        android:numStars="5"
+                        android:stepSize="0.1"
+                        android:layout_marginVertical="10sp"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

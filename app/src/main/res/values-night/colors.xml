@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#0080FF</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="background">#000000</color>
+    <color name="contrastColor">#FFFFFF</color>
+    <color name="diffCol">#E8E3E5</color>
+    <color name="splash_background">#000000</color>
+    <color name="contrast">#FFFFFF</color>
+    <color name="main_contrast">#518A4C</color>
+    <color name="main_background">#000000</color>
+    <color name="grey0">#171717</color>
+    <color name="grey1">#232323</color>
+    <color name="grey9">#F4F4F4</color>
+    <color name="yellow0">#F7C802</color>
+</resources>

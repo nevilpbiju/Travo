@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "702082745112",
+    "project_id": "travo-e29eb",
+    "storage_bucket": "travo-e29eb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:702082745112:android:86b4359a2f98fce161d46d",
+        "android_client_info": {
+          "package_name": "com.example.tourguideapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "702082745112-7ifibbaa7hdmknak3g925d0fucohjcm8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.tourguideapp",
+            "certificate_hash": "c328bd629074e656564a6b7d502c0f2f66a63a25"
+          }
+        },
+        {
+          "client_id": "702082745112-822b0a0hvldqrujd3vjpl2n3dco34hgg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA7YmACCViqmMwRAaYOYwwbiObDQ5FX9N4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "702082745112-822b0a0hvldqrujd3vjpl2n3dco34hgg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
